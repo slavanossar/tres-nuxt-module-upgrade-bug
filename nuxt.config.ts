@@ -1,3 +1,5 @@
+import glslify from 'vite-plugin-glslify'
+
 const { SITE_NAME, SITE_URL } = process.env
 
 export default defineNuxtConfig({
@@ -9,11 +11,11 @@ export default defineNuxtConfig({
   css: [],
   modules: [
     '@nuxt/devtools',
+    '@nuxtjs/seo',
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
+    '@tresjs/nuxt',
     '@vueuse/nuxt',
-    'nuxt-simple-robots',
-    'nuxt-simple-sitemap',
   ],
   robots: {},
   sitemap: {},
@@ -22,5 +24,8 @@ export default defineNuxtConfig({
       siteName: SITE_NAME,
       siteUrl: SITE_URL,
     },
+  },
+  vite: {
+    plugins: [glslify()],
   },
 })

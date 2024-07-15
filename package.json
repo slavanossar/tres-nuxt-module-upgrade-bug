@@ -38,14 +38,15 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
+    "@nuxtjs/seo": "2.0.0-rc.14",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@pinia/nuxt": "^0.5.1",
+    "@tresjs/nuxt": "2.x",
     "@vueuse/core": "^10.11.0",
     "@vueuse/nuxt": "^10.11.0",
     "dotenv": "^16.4.5",
     "nuxt": "^3.12.3",
-    "nuxt-simple-robots": "^4.0.1",
-    "nuxt-simple-sitemap": "^4.4.1",
-    "pinia": "^2.1.7"
+    "pinia": "^2.1.7",
+    "vite-plugin-glslify": "^2.1.0"
   }
 }
