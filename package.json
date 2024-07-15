@@ -41,7 +41,7 @@
     "@nuxtjs/seo": "2.0.0-rc.14",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@pinia/nuxt": "^0.5.1",
-    "@tresjs/nuxt": "2.x",
+    "@tresjs/nuxt": "^3.0.1",
     "@vueuse/core": "^10.11.0",
     "@vueuse/nuxt": "^10.11.0",
     "dotenv": "^16.4.5",
